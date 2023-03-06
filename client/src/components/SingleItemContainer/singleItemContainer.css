@@ -1,0 +1,76 @@
+.mainSingleItemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.itemContentContainer {
+  width: 72%;
+  padding: 32px;
+  top: 70px;
+  background-color: white;
+  color: #333333;
+}
+.prodImage {
+  width: 680px;
+  height: 680px;
+  border-radius: 4px;
+}
+.prodImage img {
+  width: 100%;
+  height: auto;
+}
+.itemTop {
+  display: flex;
+  justify-content: space-between;
+}
+.itemDetails {
+  display: flex;
+  align-items: center;
+}
+
+.itemInfo {
+  max-width: 250px;
+}
+.itemPrice {
+  margin-bottom: 32px;
+  font-size: 46px;
+}
+.itemName {
+  font-size: 24px;
+  margin-bottom: 32px;
+  font-weight: bold;
+}
+
+.itemBuy {
+  color: #ffffff;
+  background-color: #3483fa;
+  width: 100%;
+  border: 1px solid #3483fa;
+  height: 40px;
+  font-size: 18px;
+}
+
+.itemConditionDesc {
+  font-size: 14px;
+}
+
+.itemStatus,
+.ventasItem {
+  font-size: 14px;
+}
+
+.itemDescription {
+  max-width: 680px;
+}
+.itemDescriptionText {
+  font-size: 16px;
+  color: #999999;
+}
+.itemDescriptionContainer{
+margin-bottom: 32px;
+}
+.itemDescriptionTitle {
+  font-size: 28px;
+  margin-bottom: 32px;
+}
