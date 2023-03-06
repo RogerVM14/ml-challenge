@@ -55,3 +55,5 @@ Instala el proyecto server usando npm
   npm start
 ```
 Con esto mantendremos ambos servidores encendidos para la perfecta comunicacion entre las plataformas.
+
+NOTA: El Server debe levantarse estrictamente en el puero 3000 para una correcta funcion, para ello, simplemente levantamos primero el servidor y después el cliente.
